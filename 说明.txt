@@ -1,1 +1,14 @@
 第一次python项目
+
+目前学到的函数
+input() 用户输入
+format() 1.占位符 2.格式化代码{:.1f}保留一位小数
+int() 转换为int类型,从input()函数接收的数据为str类型
+rang() 可以生成一个整数序列
+list() 可以转换为list
+
+
+list [] L = ['tom','jack']
+tuple () t = ('tom','jack')
+dict {} d = {'tom':22,'jack':18}
+set ([]) s = set([1,2,3]) 显示{1,2,3}

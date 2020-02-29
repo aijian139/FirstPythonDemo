@@ -17,10 +17,12 @@ print(classmates[-1])
 
 # 可以替换列表的某个元素
 classmates[1] = 'yijian'
-print(classmates)
+print("----------------",classmates)
 
 # list 中可以存放不同的数据类型
 classmates.append(1)
+# 删除一个元素
+classmates.remove('yijian')
 print(classmates)
 # list 中也可以嵌套使用list
 s = ['python','java',['asp','php'],'html']
